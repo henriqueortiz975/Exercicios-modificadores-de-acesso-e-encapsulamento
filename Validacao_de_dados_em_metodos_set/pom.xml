@@ -10,4 +10,5 @@
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>com.mycompany.validacao_de_dados_em_metodos_set.Validacao_de_dados_em_metodos_set</exec.mainClass>
     </properties>
+    <name>2_Validacao_de_dados_em_metodos_set</name>
 </project>

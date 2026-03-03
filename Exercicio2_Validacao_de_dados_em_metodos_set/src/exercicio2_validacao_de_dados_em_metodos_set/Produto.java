@@ -16,7 +16,7 @@ public class Produto {
         if(preco > 0){
             return preco;
        }else{
-            System.out.println("ERRO-valor invalido-ERRO");
+            System.out.println("ERRO-valor invalido-ERRO: o valor abaixo esta errado:");
             return preco;
         }   
     }

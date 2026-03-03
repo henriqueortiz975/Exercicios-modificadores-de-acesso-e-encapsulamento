@@ -1,12 +1,10 @@
-package com.mycompany.exercicio3_contabancaria_saldoprotegido;
+package exercicio3_contabancaria_saldoprotegido;
 
 public class ContaBancaria {
     public String titular;
     private double saldo;
 
     public double getSaldo(){
-        System.out.println("conta: " + titular);
-        System.out.println("saldo: " + saldo);
         return saldo;
     }
 
@@ -31,3 +29,4 @@ public class ContaBancaria {
     }
 
 }
+

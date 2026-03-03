@@ -1,4 +1,4 @@
-package com.mycompany.exercicio2_validacao_de_dados_em_metodos_set;
+package exercicio2_validacao_de_dados_em_metodos_set;
 
 public class Produto {
     private String nome;
@@ -10,18 +10,19 @@ public class Produto {
 
     public void setNome(String nome){
         this.nome = nome;
-        System.out.println(nome);
     }
+    
     public double getPreco(){
-        return preco;
-    }
-    public void setPreco(double preco){
         if(preco > 0){
-        this.preco = preco;
-            System.out.println(preco);
+            return preco;
        }else{
             System.out.println("ERRO-valor invalido-ERRO");
-        }
+            return preco;
+        }   
     }
-
+    
+    public void setPreco(double preco){
+        this.preco = preco;
+    }
 }
+

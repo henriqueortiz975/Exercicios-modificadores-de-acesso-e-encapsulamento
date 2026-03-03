@@ -8,7 +8,7 @@ public class Exercicio1_Criando_ClassePrivate_MetodosPublic {
         objproduto.setPreco(1.20);
         
         System.out.println("Nome do produto: " + objproduto.getNome());
-            System.out.println("custo do produto: " + objproduto.getPreco());
+        System.out.println("custo do produto: " + objproduto.getPreco());
     }
 }
 

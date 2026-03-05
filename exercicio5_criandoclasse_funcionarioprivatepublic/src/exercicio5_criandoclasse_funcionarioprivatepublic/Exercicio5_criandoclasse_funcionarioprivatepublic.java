@@ -1,15 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package exercicio5_criandoclasse_funcionarioprivatepublic;
 
-public class Exercicio5_criandoclasse_funcionarioprivatepublic {
+/**
+ *
+ * @author aluno.saolucas
+ */
+public class Exercicio5_CriandoClasse_FuncionarioPrivatePublic {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        Funcionario objfuncionario = new Funcionario();
-        objfuncionario.setNome("Henrique Ibarra");
-        objfuncionario.setSalario(1343.30);
-        
-        System.out.println("Funcionario: " + objfuncionario.getNome());
-        System.out.println("Salario: " + objfuncionario.getSalario());
-
+        // TODO code application logic here
     }
     
 }

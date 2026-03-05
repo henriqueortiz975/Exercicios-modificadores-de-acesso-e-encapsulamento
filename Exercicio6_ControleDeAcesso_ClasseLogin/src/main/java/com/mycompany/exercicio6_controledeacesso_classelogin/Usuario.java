@@ -1,7 +1,7 @@
 package com.mycompany.exercicio6_controledeacesso_classelogin;
 
 public class Usuario {
-    private String login = "Henrique Ibara";
+    private String login = "Henrique Ibarra";
     private String senha = "senha123";
     
     
@@ -11,9 +11,5 @@ public class Usuario {
           }else{
               return false;
           } 
-    }
-    
-    public void getAutenticar(){
-        
     }
 }

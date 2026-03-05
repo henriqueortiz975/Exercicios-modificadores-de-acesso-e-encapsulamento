@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.exercicio7_subclassea_atributoprotected;
 
-/**
- *
- * @author User
- */
 public class Exercicio7_SubClassea_AtributoProtected {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Aluno objaluno = new Aluno();
+        objaluno.setIdade(17);
+        objaluno.setNome("Henrique Ibarra");
+        System.out.println("nome do aluno: " + objaluno.getNome());
+        System.out.println("idade do aluno: " + objaluno.getIdade());
     }
 }
